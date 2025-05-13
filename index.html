@@ -21,7 +21,6 @@
     <title>Document</title>
   </head>
   <body>
-    <button data-modal-open>відкрити модалку</button>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button data-modal-close>X</button>
@@ -30,6 +29,28 @@
         <div class="div-position">
           <input class="modal-input" type="text" />
           <img class="position-img" src="./img2/vector.png" alt="" />
+        </div>
+        <p>Телефон</p>
+        <div class="div-position">
+          <input class="modal-input" type="text" />
+          <img class="position-img" src="./img2/phone-black-18dp1.png" alt="" />
+        </div>
+        <p>Пошта</p>
+        <div class="div-position">
+          <input class="modal-input" type="text" />
+          <img class="position-img" src="./img2/email-black-18dp1.png" alt="" />
+        </div>
+        <p>Коментар</p>
+        <div class="div-position">
+          <input class="modal-input" type="text" />
+        </div>
+        <div class="div-flex">
+          <input type="checkbox" />
+          <p>Погоджуюся з розсилкою та</p>
+          <a href="">Умови договору</a>
+        </div>
+        <div class="center-button">
+          <button class="submit">Відправити</button>
         </div>
       </div>
     </div>
@@ -73,7 +94,9 @@
       <section class="hero">
         <div class="container overlay">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-button" type="button">Замовити послугу</button>
+          <button data-modal-open class="hero-button" type="button">
+            Замовити послугу
+          </button>
         </div>
       </section>
       <section class="advantages">
@@ -405,6 +428,13 @@
             </ul>
           </div>
         </div>
+      </div>
+      <div>
+        <h1></h1>
+      </div>
+      <p class="div-p">Підпишіться на розсилку</p>
+      <div class="input-div">
+        <input type="text" />
       </div>
     </footer>
   </body>

@@ -622,7 +622,7 @@ abbr {
 }
 .div-position {
   position: relative;
-  border: 2px solid black;
+  /* border: 2px solid; */
 }
 .position-img {
   position: absolute;
@@ -631,6 +631,26 @@ abbr {
   left: 15px;
 }
 .modal-input {
-  width: 448px;
+  width: 100%;
   height: 40px;
+  margin-bottom: 24px;
+}
+.div-flex {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.submit {
+  background-color: #2196f3;
+  border-radius: 10px;
+  width: 150px;
+  height: 70px;
+}
+.div-flex {
+  display: flex;
 }
