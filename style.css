@@ -620,3 +620,17 @@ abbr {
   opacity: 0;
   pointer-events: none;
 }
+.div-position {
+  position: relative;
+  border: 2px solid black;
+}
+.position-img {
+  position: absolute;
+  top: 14px;
+  bottom: 14px;
+  left: 15px;
+}
+.modal-input {
+  width: 448px;
+  height: 40px;
+}
