@@ -654,3 +654,10 @@ abbr {
 .div-flex {
   display: flex;
 }
+.div-p {
+  margin-bottom: 20px;
+}
+.footer-3 {
+  padding-top: 72px;
+  margin-left: 93px;
+}
