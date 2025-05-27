@@ -704,18 +704,7 @@ abbr {
 .nav-links:focus::after {
   transform: scaleX(1);
 }
-.nav-links.current::after {
-  animation: underlineAnimation 250ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
 
-@keyframes underlineAnimation {
-  from {
-    transform: scaleX(0);
-  }
-  to {
-    transform: scaleX(1);
-  }
-}
 .brows {
   width: 24px;
   height: 24px;
