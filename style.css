@@ -606,19 +606,32 @@ abbr {
   right: 0;
   left: 0;
   bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .modal {
   width: 528px;
   height: 581px;
+  border-radius: 4px;
   background-color: #fff;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  padding-inline: 40px;
+  transition: transform 1s ease-in-out;
+}
+@keyframes modal {
+  transition: transform 1s ease-in-out;
 }
 .is-hidden {
   opacity: 0;
   pointer-events: none;
+  transition: opacity 1s ease-in-out;
+}
+.no-scroll {
+  overflow: hidden;
 }
 .div-position {
   position: relative;
@@ -730,4 +743,15 @@ abbr {
 .svgs:focus {
   fill: #2196f3;
   transform: scale(1.1);
+}
+.modal {
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 1;
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -30%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
