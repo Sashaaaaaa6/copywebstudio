@@ -1,0 +1,70 @@
+.nav-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 24px;
+}
+
+.header-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 24px;
+}
+
+.qwe {
+  display: flex;
+}
+.header {
+  line-height: auto;
+  padding-bottom: 25px;
+}
+
+abbr {
+  color: #2196f3;
+  font-family: Ralewa;
+}
+
+.header svg {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+}
+
+.email a:hover {
+  color: #2196f3;
+}
+
+.email:hover svg {
+  fill: #2196f3;
+}
+
+.telephone a:hover {
+  color: #2196f3;
+}
+
+.telephone:hover svg {
+  fill: #2196f3;
+}
+
+.nav {
+  color: var(--text-color);
+}
+
+.nav-list,
+.logo {
+  display: flex;
+}
+
+.nav-li {
+  padding-right: 40px;
+  padding-top: 29.5px;
+  list-style: none;
+}
+
+.nav-li:first-child {
+  padding-right: 93px;
+  padding-top: 24px;
+}
+
+.nav-li:nth-child(4) {
+  padding-right: 272px;
+}
