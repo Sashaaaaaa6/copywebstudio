@@ -274,16 +274,14 @@ abbr {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
-.overlay {
-  width: 100%;
-  position: absolute;
-  width: 1200px;
-  height: 480px;
-  left: 0px;
-  top: 0px;
-
-  background: rgba(47, 48, 58, 0.4);
-  padding-top: 200px;
+.our-team-li {
+  width: 270px;
+  height: 428px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
 .our-team {
