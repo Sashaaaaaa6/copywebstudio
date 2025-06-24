@@ -1,0 +1,52 @@
+.advantages-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 94px;
+}
+.advantages-li:not(:last-child) {
+  margin-right: 30px;
+}
+.svg1 {
+  content: "";
+  background-image: url("./img/antenna1\(1\).png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+.svg2 {
+  content: "";
+  background-image: url("./img/clock1\(1\).png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+.svg3 {
+  content: "";
+  background-image: url("./img/diagram1\(2\).png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+.svg4 {
+  content: "";
+  background-image: url("./img/astronaut1\(1\).png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+}
+.advantages-title {
+  padding-top: 55px;
+}
+.advantages-title2 {
+  padding-top: 55px;
+}
+.advantages-title3 {
+  padding-top: 55px;
+}
+.advantages-title4 {
+  padding-top: 55px;
+}

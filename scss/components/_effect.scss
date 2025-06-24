@@ -132,3 +132,14 @@
     opacity: 1;
   }
 }
+.overlay {
+  width: 100%;
+  position: absolute;
+  width: 1200px;
+  height: 480px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(47, 48, 58, 0.4);
+  padding-top: 200px;
+}

@@ -72,7 +72,7 @@ abbr {
 .hero {
   padding-top: 200px;
   padding-bottom: 280px;
-  background-image: url("./img2/Img\(22\).webp");
+  background-image: url("./img23.webp");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -863,4 +863,15 @@ abbr {
     animation-timing-function: ease-out;
     opacity: 1;
   }
+}
+.overlay {
+  width: 100%;
+  position: absolute;
+  width: 1200px;
+  height: 480px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(47, 48, 58, 0.4);
+  padding-top: 200px;
 }

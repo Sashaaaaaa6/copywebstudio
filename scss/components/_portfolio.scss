@@ -1,0 +1,86 @@
+.nav-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 24px;
+}
+
+.header-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 24px;
+}
+
+.qwe {
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.nav-li {
+  margin-right: 50px;
+}
+.header-a {
+  margin-right: 93px;
+  padding-top: 24px;
+}
+.aa {
+  margin-left: 344px;
+}
+.header-li {
+  margin-right: 50px;
+}
+.main-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 25px;
+}
+.ul-li {
+  margin-right: 20px;
+}
+.ul-a {
+  margin-left: 344px;
+}
+.li-a {
+  margin-left: 511px;
+}
+.ul {
+  display: flex;
+  list-style: none;
+  padding-top: 56px;
+}
+.li:not(:last-child) {
+  margin-right: 30px;
+}
+.photo-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 30px;
+}
+.photo-li:not(:last-child) {
+  margin-right: 30px;
+}
+.ul3 {
+  display: flex;
+  list-style: none;
+  padding-top: 30px;
+  padding-bottom: 154px;
+}
+.Ul-li3:not(:last-child) {
+  margin-right: 30px;
+}
+
+.footer-address {
+  padding-top: 20px;
+  padding-bottom: 9px;
+}
+
+.footer-ul {
+  display: block;
+  list-style: none;
+}
+.footer-contact {
+  padding-top: 9px;
+}
