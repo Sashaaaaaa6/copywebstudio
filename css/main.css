@@ -638,20 +638,33 @@ abbr {
 .no-scroll {
   overflow: hidden;
 }
-.div-position {
+*/ .div-position {
   position: relative;
-  /* border: 2px solid; */
+  border: 2px solid;
+  &--img {
+    position: absolute;
+    top: 14px;
+    bottom: 14px;
+    left: 15px;
+  }
+  &__input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 24px;
+  }
 }
-.position-img {
+&--img {
   position: absolute;
   top: 14px;
   bottom: 14px;
   left: 15px;
 }
-.modal-input {
+&__input {
   width: 100%;
   height: 40px;
   margin-bottom: 24px;
+}
+.div-position {
 }
 .div-flex {
   display: flex;
