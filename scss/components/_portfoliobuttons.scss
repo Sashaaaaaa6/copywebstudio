@@ -4,7 +4,7 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
-.li-img1 {
+.portfolio1-img {
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
@@ -54,12 +54,12 @@ body {
   .portfolio-item:hover .overlay {
     opacity: 1;
   } */
-.portfolio-item {
+.portfolio1-div {
   position: relative;
   overflow: hidden;
 }
 
-.overlay {
+.portfolio1-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -76,6 +76,6 @@ body {
   text-align: center;
 }
 
-.portfolio-item:hover .overlay {
+.portfolio1-div:hover .portfolio1-overlay {
   transform: translateY(0);
 }
