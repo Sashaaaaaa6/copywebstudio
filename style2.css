@@ -54,7 +54,7 @@
 .li:not(:last-child) {
   margin-right: 30px;
 }
-.photo-ul {
+.portfolio2-ul {
   display: flex;
   list-style: none;
   padding-top: 30px;

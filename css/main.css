@@ -574,24 +574,24 @@ abbr {
   margin-right: 30px;
 }
 
-.photo-ul {
+.portfolio2-ul {
   display: flex;
   list-style: none;
   padding-top: 30px;
 }
 
-.photo-li:not(:last-child) {
+.portfolio2-ul:not(:last-child) {
   margin-right: 30px;
 }
 
-.ul3 {
+.portfolio3-ul {
   display: flex;
   list-style: none;
   padding-top: 30px;
   padding-bottom: 154px;
 }
 
-.Ul-li3:not(:last-child) {
+.portfolio3-li:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -609,7 +609,7 @@ abbr {
   padding-top: 9px;
 }
 
-.photo-li {
+.portfolio2-li {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
@@ -617,7 +617,7 @@ abbr {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
-.Ul-li3 {
+.portfolio3-li {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
@@ -1036,16 +1036,16 @@ body {
   list-style: none;
   padding-top: 30px;
 }
-.photo-li:not(:last-child) {
+.portfolio2-li:not(:last-child) {
   margin-right: 30px;
 }
-.ul3 {
+.portfolio3-ul {
   display: flex;
   list-style: none;
   padding-top: 30px;
   padding-bottom: 154px;
 }
-.Ul-li3:not(:last-child) {
+.portfolio3-li:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -1062,19 +1062,19 @@ body {
   padding-top: 9px;
 }
 
-.photo-li {
+.portfolio2-li {
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
-.li-img1 {
+.portfolio1-img {
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
-.Ul-li3 {
+.portfolio3-li {
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
