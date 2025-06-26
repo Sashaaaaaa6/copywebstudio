@@ -455,18 +455,18 @@ abbr {
 } */
 
 .nav-li {
-  padding-right: 40px;
+  /* padding-right: 40px; */
   padding-top: 29.5px;
   list-style: none;
 }
 
 .nav-li:first-child {
-  padding-right: 93px;
+  /* padding-right: 93px; */
   padding-top: 24px;
 }
 
 .nav-li:nth-child(4) {
-  padding-right: 272px;
+  /* padding-right: 272px; */
 }
 
 .mail {
