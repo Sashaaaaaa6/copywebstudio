@@ -1,0 +1,14 @@
+@mixin main-text($margin-right) {
+  margin-right: $margin-right;
+}
+@mixin port1-ul($display, $list-style) {
+  display: $display;
+  list-style: $list-style;
+}
+@mixin foot-ul($display, $list-style) {
+  display: $display;
+  list-style: $list-style;
+}
+@mixin foot-cont($padding-top) {
+  padding-top: $padding-top;
+}

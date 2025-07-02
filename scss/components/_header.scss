@@ -88,3 +88,6 @@ abbr {
 .nav-links:focus::after {
   transform: scaleX(1);
 }
+.nav-li {
+  @include main-text(50px);
+}
