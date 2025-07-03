@@ -6,9 +6,18 @@
   padding-bottom: 50px;
 }
 .our-team-ul {
-  display: flex;
-  list-style: none;
-  padding-bottom: 154px;
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+    list-style: none;
+    padding-bottom: 154px;
+  }
 }
 .our-team-img {
   width: 270px;
@@ -45,16 +54,6 @@
 .our-team-h2 {
   text-align: center;
 }
-.our-team-li {
-  width: 270px;
-  height: 428px;
-  flex-shrink: 0;
-  border-radius: 0px 0px 4px 4px;
-  background: #fff;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-}
-
 .our-team-li {
   width: 270px;
   height: 428px;

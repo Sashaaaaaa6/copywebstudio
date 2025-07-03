@@ -52,3 +52,8 @@
 .about-us-h2 {
   text-align: center;
 }
+.about-us {
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
