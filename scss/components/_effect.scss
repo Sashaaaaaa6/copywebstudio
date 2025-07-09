@@ -12,8 +12,8 @@
   width: 216px;
   height: 50px;
   margin: 0 auto;
-  background-color: $sale-heading;
-  color: $sale-text;
+  background-color: $primary-color;
+  color: $white-color;
   border: none;
   outline: none;
   margin-top: 30px;
@@ -31,7 +31,7 @@
 .hero-title {
   @include main-text(36px, "Roboto", 900, #ffffff);
   text-align: center;
-  color: $sale-text;
+  color: $white-color;
   /* Ефективні рішення для вашого бізнесу */
 
   font-style: normal;
@@ -44,7 +44,7 @@
 }
 
 .hero-title {
-  padding-top: 171px;
+  padding-top: 0px;
 }
 
 .overlay {
