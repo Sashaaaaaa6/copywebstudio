@@ -22,16 +22,7 @@
 //     letter-spacing: 0.78px;
 //   }
 // }
-%container {
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
-%flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .portfolio1-ul {
   display: flex;
   list-style: none;
@@ -42,4 +33,14 @@
 }
 .footer-contact {
   padding-top: 9px;
+}
+%container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+%flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
