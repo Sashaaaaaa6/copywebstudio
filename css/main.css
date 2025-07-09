@@ -443,20 +443,38 @@ ol {
   padding-top: 9px;
 }
 
-.header {
-  line-height: auto;
-  padding-bottom: 25px;
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+}
+
+.header svg {
+  fill: #757575;
+}
+@media screen and (min-width: 768px) {
+  .header svg {
+    width: 14px;
+    height: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header svg {
+    width: 16px;
+    height: 12px;
+  }
 }
 
 abbr {
   color: #2196f3;
   font-family: Ralewa;
-}
-
-.header svg {
-  width: 16px;
-  height: 12px;
-  fill: #757575;
 }
 
 .email a:hover {
