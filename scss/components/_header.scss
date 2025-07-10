@@ -7,6 +7,7 @@ body {
 .header {
   border-bottom: 1px solid $colorWhit;
   background-color: $white-color;
+  display: flex;
 
   // &__container {
   //   display: flex;
@@ -14,14 +15,13 @@ body {
   //   justify-content: space-between;
   //   padding: 0 15px;
 
-    @media (min-width: $bp-tablet) {
-      max-width: $container-tablet;
-      margin: 0 auto;
-    }
+  @media (min-width: $bp-tablet) {
+    max-width: $container-tablet;
+    margin: 0 auto;
+  }
 
-    @media (min-width: $bp-desktop) {
-      max-width: $container-desktop;
-    }
+  @media (min-width: $bp-desktop) {
+    max-width: $container-desktop;
   }
 
   &__logo {
