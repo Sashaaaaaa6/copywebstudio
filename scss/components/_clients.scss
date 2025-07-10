@@ -21,20 +21,18 @@
   cursor: pointer;
 }
 .list-clients {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  list-style: none;
-  @media (min-width: 768px) {
-    // display: flex;
-    // text-align: center;
-    // justify-content: center;
-    // list-style: none;
-    flex-wrap: wrap;
-  }
-}
-.list-clients {
   @media (min-width: 1200px) {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+  }
+  @media (min-width: 768px) {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
   }
 }
 
