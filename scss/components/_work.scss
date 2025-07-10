@@ -12,8 +12,10 @@
 }
 .about-us-ul {
   display: flex;
-  width: 370px;
-  height: 294px;
+  text-align: center;
+  justify-content: center;
+  // width: 370px;
+  // height: 294px;
   flex-shrink: 0;
   list-style: none;
   padding-bottom: 174px;
@@ -42,8 +44,8 @@
   text-transform: uppercase;
 }
 
-.about-us-li:not(:last-child) {
-  margin-right: 30px;
+.about-us-li {
+  margin-right: 100px;
 }
 .about-us-img {
   width: 370px;
