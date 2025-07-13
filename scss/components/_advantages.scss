@@ -119,3 +119,9 @@
     flex-basis: calc(25% - 22.5px);
   }
 }
+.overlay {
+  @media (max-width: 480px) {
+    width: 480px;
+    height: 400px;
+  }
+}

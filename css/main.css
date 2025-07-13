@@ -96,6 +96,13 @@ ol {
     flex-basis: calc(25% - 22.5px);
   }
 }
+@media (max-width: 480px) {
+  .overlay {
+    width: 480px;
+    height: 400px;
+  }
+}
+
 .icons {
   display: flex;
   list-style: none;
@@ -195,6 +202,18 @@ ol {
   .svgs {
     width: 226px;
     height: 92px;
+  }
+}
+
+@media (max-width: 480px) {
+  .svgs {
+    width: 120px;
+    height: 52px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
   }
 }
 
@@ -303,6 +322,12 @@ ol {
     opacity: 1;
   }
 }
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 20px;
+  }
+}
+
 .footer {
   background-color: #2f303a;
   color: #ffffff;
@@ -906,6 +931,19 @@ body {
 .brows:focus {
   fill: #2196f3;
   transform: scale(1.1);
+}
+
+@media (max-width: 480px) {
+  .our-team-li {
+    padding-top: 20px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  .our-team-img {
+    margin-left: 80px;
+  }
 }
 
 .about-us-h2 {

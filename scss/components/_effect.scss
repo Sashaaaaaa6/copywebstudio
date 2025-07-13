@@ -175,3 +175,8 @@
     opacity: 1;
   }
 }
+.hero-title {
+  @media (max-width: 480px) {
+    font-size: 20px;
+  }
+}
