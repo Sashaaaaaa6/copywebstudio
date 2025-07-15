@@ -130,6 +130,13 @@ ol {
   cursor: pointer;
 }
 
+.list-clients {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
 @media (min-width: 768px) {
   .list-clients {
     display: flex;
@@ -202,18 +209,6 @@ ol {
   .svgs {
     width: 226px;
     height: 92px;
-  }
-}
-
-@media (max-width: 480px) {
-  .svgs {
-    width: 120px;
-    height: 52px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
   }
 }
 

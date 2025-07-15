@@ -21,6 +21,11 @@
   cursor: pointer;
 }
 .list-clients {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
   @media (min-width: 768px) {
     display: flex;
     text-align: center;
@@ -87,16 +92,5 @@
   @media (min-width: 768px) and (max-width: 1199px) {
     width: 226px;
     height: 92px;
-  }
-}
-.svgs {
-  @media (max-width: 480px) {
-    width: 120px;
-    height: 52px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
   }
 }
