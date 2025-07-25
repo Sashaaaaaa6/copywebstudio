@@ -469,7 +469,7 @@ ol {
   transition: background-color 0.3s ease;
 }
 .footer .footer-3 .input-div .footer3-button:hover {
-  background-color: #0c7cd5;
+  background-color: rgb(11.5384615385, 124.0384615385, 213.4615384615);
 }
 
 body {
@@ -606,6 +606,28 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
   }
+}
+
+.mobile-menu-button {
+  border: none;
+  outline: none;
+  background: none;
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu-button {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-menu-button {
+    display: none;
+  }
+}
+
+.svg-mobile {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
 }
 
 .nav-ul {

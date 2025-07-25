@@ -68,6 +68,50 @@
           <span class="header__logo--blue">Web</span
           ><span class="header__logo--dark">Studio</span>
         </a>
+        <nav class="mobile-menu" id="mobile-menu">
+          <button id="close-menu" class="mobile-close-menu">
+            <svg class="close-svg">
+              <use href="./secsvg/symbol-defs.svg#icon-close_menu"></use>
+            </svg>
+          </button>
+          <ul class="mobile-header-list">
+            <li class="mobile-list-item">
+              <a class="mobile-header-list-link curr" href="">Студія</a>
+            </li>
+            <li class="mobile-list-item">
+              <a class="mobile-header-list-link" href="">Портфоліо</a>
+            </li>
+            <li class="mobile-list-item">
+              <a class="mobile-header-list-link" href="#">Контакти</a>
+            </li>
+          </ul>
+          <ul class="mobile-list-info">
+            <li class="mobile-phone_number">
+              <a class="mobile-list-phone" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+            <li class="mobile-list-email">
+              <a class="mobile-list-email-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-list-links">
+            <li class="mobile-li-link">
+              <p class="mobile-text-link">Instagram</p>
+            </li>
+            <li class="mobile-li-link">
+              <p class="mobile-text-link">Twitter</p>
+            </li>
+            <li class="mobile-li-link">
+              <p class="mobile-text-link">Facebook</p>
+            </li>
+            <li class="mobile-li-link">
+              <p class="mobile-text-link">LinkedIn</p>
+            </li>
+          </ul>
+        </nav>
 
         <nav class="header__nav">
           <a href="#" class="active">Студія</a>
@@ -89,6 +133,11 @@
             +38 096 111 11 11
           </a>
         </div>
+        <button class="mobile-menu-button" id="menu-toggle">
+          <svg class="svg-mobile">
+            <use href="./assets/images/symbol-defs.svg#icon-menu_40px"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -441,4 +490,5 @@
     </footer>
   </body>
   <script src="./modal.js"></script>
+  <script src="./mobile-menu.js"></script>
 </html>

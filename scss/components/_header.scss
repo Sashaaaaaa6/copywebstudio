@@ -149,3 +149,21 @@ body {
     }
   }
 }
+
+.mobile-menu-button {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.svg-mobile {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
