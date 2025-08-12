@@ -332,6 +332,31 @@ ol {
   background-repeat: no-repeat;
   position: relative;
 }
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("./../../img2/overlayphonr2x.webp");
+  }
+}
+@media (min-width: 768px) {
+  .hero {
+    background-image: url("./../../img2/overlaytablet1px.webp");
+  }
+}
+@media (min-width: 768px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi), (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("./../../img2/overlaytablet2px.webp");
+  }
+}
+@media (min-width: 1200px) {
+  .hero {
+    background-image: url("./../../css/img23.webp");
+  }
+}
+@media (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi), (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("./../../img2/overlaycomp2px.webp");
+  }
+}
 
 .hero-button {
   border: none;

@@ -4,6 +4,27 @@
   background-image: url("./../../css/img23.webp");
   background-repeat: no-repeat;
   position: relative;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url("./../../img2/overlayphonr2x.webp");
+  }
+  @media (min-width: 768px) {
+    background-image: url("./../../img2/overlaytablet1px.webp");
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url("./../../img2/overlaytablet2px.webp");
+    }
+  }
+  @media (min-width: 1200px) {
+    background-image: url("./../../css/img23.webp");
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url("./../../img2/overlaycomp2px.webp");
+    }
+  }
 }
 
 .hero-button {
